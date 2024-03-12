@@ -1,15 +1,39 @@
+body{
+    background-color: rgb(247, 219, 183);
+}
+
 .lista img{
-    width: 250px;
+    width: 150px;
     height: 200px;
     object-fit: cover;
 }
 
 h1{
     text-align: center;
-    font-size: 200%;
+    font-size: 80px;
     color: red;
 }
 h2{
     text-align: center;
     color: rgb(88, 87, 87);
+}
+
+.lista{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.card{
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'segoe UI';
+}
+
+.imagem-banner{
+    width: 100vw;
+    height: 250px;
+    object-fit: cover;
 }
