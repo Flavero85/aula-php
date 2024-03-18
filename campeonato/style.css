@@ -1,0 +1,35 @@
+.times img{
+    width: 130px;
+    height: 150px;
+    margin: 50px 5px 10px 5px;
+    object-fit: cover;
+    border: 20px;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 100px;
+    color: red;
+}
+
+h2{
+    text-align: center;
+    color: rgb(88, 87, 87);
+}
+
+.times{
+    margin-top: 5px 10px 5px 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    columns: 5; 
+}
+
+.card{
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'segoe UI';
+    
+}

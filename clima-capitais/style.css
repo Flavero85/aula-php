@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(82, 82, 83);
+}
+
+.card img{
+    width: auto;
+    height: 150px;
+    margin: 50px 5px 10px 5px;
+    object-fit: cover;
+    border: solid 2px;
+    border-radius: 8px;
+    color: aliceblue;
+    flex-basis: auto;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 80px;
+    color: rgb(82, 33, 33);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 5px steelblue;
+}
+
+.clima-capital{
+    columns: 3;
+    
+}
+
+.card{
+    text-align: center;
+    font-weight: 50px;
+    font-size: 30px;
+    color: rgb(61, 155, 238);
+    font-family: 'segoe UI';
+    border: solid 2px; 
+    
+}
